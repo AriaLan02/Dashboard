@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@400;500&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+* { /*resetando a configuração*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1F1517;
+    color: #FFFFFF;
+
+}
+
+html{
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a{
+text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+nav{
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem; /*a medida tbm pode ser em px*/
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: Teko;
+    font-size: 32PX;
+    font-weight: 600;
+    text-transform: uppercase; 
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: #FFF2E780;
+}
+
+a:visited{
+    color: #FFF2E780;
+}
